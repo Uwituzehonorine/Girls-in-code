@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container header .top-navbar {
+  background-color: rgb(75, 75, 215);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+.container header .top-navbar i {
+  color: white;
+}
+.container header .top-navbar .email {
+  display: flex;
+  gap: 6px;
+}
+.container header .top-navbar .phone {
+  display: flex;
+  gap: 6px;
+}
+.container header .top-navbar .social-media {
+  display: flex;
+  gap: 12px;
+}
+.container header .navbar {
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.container header .navbar ul {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+}
+.container header .navbar ul a {
+  text-decoration: none;
+  color: rgb(82, 82, 166);
+}
+.container header .navbar input[type=submit] {
+  padding: 6px 22px;
+  background-color: rgb(74, 74, 220);
+  border: none;
+  outline: none;
+  color: white;
+}
+.container header .navbar .logo img {
+  width: 100px;
+}
+.container .hero {
+  background-image: url("/static/images/Hero section.svg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.container .hero .text {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 70%;
+  padding: 40px;
+}
+.container .hero .text h1 {
+  color: white;
+  font-size: 48px;
+}
+.container .hero .text p {
+  color: white;
+  font-size: 32px;
+}/*# sourceMappingURL=about.css.map */

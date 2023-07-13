@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    
+    header{
+        
+        .top-navbar{
+            background-color: rgb(75, 75, 215);
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            color: white;
+            i{
+                color: white;
+            }
+
+            .email{
+                display: flex;
+                gap: 6px;
+            }
+            .phone{
+                display: flex;
+                gap: 6px;
+            }
+
+            .social-media{
+                display: flex;
+                gap: 12px;
+            }
+        }
+        .navbar{
+            
+            display: flex;
+            gap: 24px;
+            padding: 20px;
+            align-items: center;
+            justify-content: space-between;
+            
+            ul{
+                display: flex;
+                gap: 24px;
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: rgb(82, 82, 166);
+                }
+                
+            }
+
+            input[type=submit]{
+                padding: 6px 22px ;
+                background-color: rgb(74, 74, 220);
+                border: none;
+                outline: none;
+                color: white;
+
+            }
+            .logo{
+                img{
+                    width: 100px;
+                    
+                }
+            }
+        }
+    }
+    .hero{
+        background-image: url('/static/images/Hero\ section.svg');
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        text-align: center;
+        .text{
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            width: 70%;
+            padding: 40px;
+           
+            h1{
+                color: white;
+                font-size: 48px;
+    
+            }
+            p{
+                color: white;
+                font-size: 32px;
+                
+            }
+        }
+       
+    }
+}
