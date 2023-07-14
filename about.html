@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
     <link rel="stylesheet" href="/static/css/about.css">
     <title>About Us</title>
 </head>
@@ -17,18 +18,18 @@
             <div class="top-navbar">
                 <div class="email">
                     <a href=""><i class="fa-regular fa-envelope"
-                            style="color: #000000;"></i></a>girlsincode@gmail.com</a>
+                            style="color: #ddd8d8;"></i>girlsincode@gmail.com</a>
                 </div>
                 <div class="phone">
-                    <a href=""><i class="fa-regular fa-envelope" style="color: #000000;"></i></a>+2507 888 888 88</a>
+                    <a href=""><i class="fa-regular fa-envelope" style="color: #dfdcdc;"></i></a>+2507 888 888 88</a>
                 </div>
 
 
                 <div class="social-media">
-                    <a href=""><i class="fa-brands fa-facebook-f" style="color: #000000;"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
-                    <a href=""><i class="fa-regular fa-envelope" style="color: #000000;"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f" style="color: #dad1d1;"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram" style="color: #e2dddd;"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter" style="color: #d4cbcb;"></i></a>
+                    <a href=""><i class="fa-regular fa-envelope" style="color: #ece1e1;"></i></a>
                 </div>
             </div>
             <div class="navbar">
@@ -57,9 +58,8 @@
                     </a>
                 </ul>
                 <div class="blue-btn">
-                    <input type="submit" value="Join Us">
+                    <a href=""><input type="submit" value="Join Us"></a>
                 </div>
-
             </div>
         </header>
 
@@ -68,19 +68,25 @@
                 <h1>Get In Touch</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione autem, facere soluta quibusdam,
                     nostrum officia natus qui reprehenderit quos quaerat tenetur veniam suscipit est ipsam, debitis
-                    nulla quas saepe ipsa.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione autem,
-                    facere soluta quibusdam, nostrum officia natus qui reprehenderit quos quaerat tenetur veniam
-                    suscipit est ipsam, debitis nulla quas saepe ipsa.</p>
+                    nulla quas saepe ipsa.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
 
         </div>
         <div class="contact">
+            <div class="title">
             <h1>Contact Information</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima reiciendis eius voluptatem ipsa,
                 nesciunt expedita corporis eum omnis quae accusantium mollitia voluptas consequuntur qui asperiores
                 delectus, fuga harum est repellat!</p>
+            </div>
             <div class="info-form">
-                <div class="info"></div>
+                <div class="info">
+                    <h1>Contact Information</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt optio, dolorem et est illo cupiditate qui ullam atque expedita dolore corrupti soluta commodi velit sequi architecto quo assumenda autem harum!</p>
+                    <a href=""><i class="fa-brands fa-facebook-f" style="color: #f7f1f1;"></i>+250 78888 990</a>
+                    <a href=""><i class="fa-brands fa-instagram" style="color: #e7e7e7;"></i>girlsincode@gmail.com</a>
+                   <a href=""><i class="fa-brands fa-instagram" style="color: #eceaea;"></i>Kigali-Rwanda</a>
+                </div>
                 <form action="" method="POST">
                     <div class="half-input">
                         <input type="text" name="" id="" placeholder="First Name">
@@ -90,20 +96,32 @@
                     <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
                     <input type="submit" value="Send Message">
                 </form>
-                <div class="map"></div>
+                
+            </div>
+            <div id="map">
+                
+                <!-- <script  src="https://goo.gl/maps/PEUWzoJFpkEmGS1J9">
+                    initMap();
+                </script> -->
+
+                <a href="https://goo.gl/maps/PEUWzoJFpkEmGS1J9"><p>see location</p></a>
+                
             </div>
         </div>
 
         <footer>
             <div class="about-company">
+
+                <p>About The company</p>
                 <img src="" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugiat pariatur soluta
                     adipisci similique vero mollitia sed praesentium? Eum aliquid earum doloribus? Neque,
                     molestiae? Sit similique ratione placeat ab nostrum.</p>
-
             </div>
             <div class="otherlinks">
+
                 <div class="quicklinks">
+                    <p>Quick Links</p>
                     <ul>
                         <a href="">
                             <li>Home</li>
@@ -121,25 +139,9 @@
 
                     </ul>
                 </div>
-                <div class="lorem">
-                    <ul>
-                        <a href="">
-                            <li>Home</li>
-                        </a>
-
-                        <a href="">
-                            <li>About Us</li>
-                        </a>
-                        <a href="">
-                            <li>What we offer</li>
-                        </a>
-                        <a href="">
-                            <li>Testimonials</li>
-                        </a>
-
-                    </ul>
-                </div>
+               
                 <div class="events">
+                    <p>Events</p>
                     <ul>
                         <a href="">
                             <li>Home</li>
@@ -158,6 +160,7 @@
                     </ul>
                 </div>
                 <div class="contactinfo">
+                    <p>Contact Us</p>
                     <ul>
                         <a href="">
                             <li>Home</li>
@@ -175,22 +178,23 @@
 
                     </ul>
                 </div>
-
-                <div class="copy-rights">
-                    <p>c 2023 Girls In Code- All rights reserved.</p>
-
-                    <div class="socialmedia">
-                        <a href=""><i class="fa-brands fa-facebook-f" style="color: #000000;"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
-                    </div>
-                </div>
             </div>
+
+               
+            
         </footer>
+        <div class="copy-rights">
+            <p><i class="fa-regular fa-copyright"></i> 2023 Girls In Code- All rights reserved.</p>
 
+            <div class="socialmedia">
+                <a href=""><i class="fa-brands fa-facebook-f" style="color: #ded9d9;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram" style="color: #e5e2e2;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter" style="color: #e0dada;"></i></a>
+            </div>
+        </div>
     </div>
 
-    </div>
+   
 </body>
 
 </html>
