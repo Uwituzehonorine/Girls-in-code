@@ -1,1 +1,335 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+}
+.container ul {
+  list-style-type: none;
+}
+.container header .top-navbar {
+  background-color: #004AAD;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+.container header .top-navbar i {
+  color: white;
+}
+.container header .top-navbar .email {
+  display: flex;
+  gap: 12px;
+}
+.container header .top-navbar .phone {
+  display: flex;
+  gap: 6px;
+}
+.container header .top-navbar .social-media {
+  display: flex;
+  gap: 12px;
+}
+.container header .navbar {
+  font-size: 24px;
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.container header .navbar ul {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+}
+.container header .navbar ul a {
+  text-decoration: none;
+  color: #004AAD;
+}
+.container header .navbar input[type=submit] {
+  padding: 22px 32px;
+  background-color: #004AAD;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 14px;
+}
+.container header .navbar .logo img {
+  width: 100px;
+}
+.container .hero {
+  background-image: linear-gradient(0deg, rgba(82, 105, 222, 0.5) 0%, rgba(54, 66, 175, 0.5) 100%), url("/static/images/Hero section.svg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .hero .text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 70%;
+  padding: 40px;
+}
+.container .hero .text h1 {
+  color: white;
+  font-size: 48px;
+}
+.container .hero .text p {
+  color: white;
+  font-size: 32px;
+}
+.container .hero .text .white-btn {
+  background-color: white;
+  color: #004AAD;
+  padding: 25px;
+  border: none;
+}
+.container .hero .text .white-btn:hover {
+  background-color: #004AAD;
+  color: white;
+}
+.container .who-we-are {
+  padding: 100px;
+  display: flex;
+  gap: 48px;
+}
+.container .who-we-are img {
+  width: 50%;
+}
+.container .who-we-are .text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 50%;
+  align-items: center;
+}
+.container .who-we-are .text p {
+  font-size: 24px;
+}
+.container .benefits {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.container .benefits .text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.container .benefits .text p {
+  font-size: 24px;
+}
+.container .benefits .cards-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.container .benefits .cards-benefits .cards {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 12px;
+}
+.container .benefits .cards-benefits .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 300px;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background: linear-gradient(0deg, rgba(52, 68, 205, 0.4) 0%, rgba(85, 50, 189, 0.4) 100%), url(/static/images/Hero\ section.svg), lightgray 50%/cover no-repeat;
+}
+.container .services {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #004AAD;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  padding: 100px;
+}
+.container .services .our-services {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 34px;
+}
+.container .services .our-services .service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: white;
+}
+.container .services .our-services .service p {
+  font-size: 24px;
+  text-align: center;
+}
+.container .services .our-services .service .icon {
+  background-color: white;
+  color: #004AAD;
+  padding: 24px;
+}
+.container .partners {
+  display: flex;
+  gap: 48px;
+  padding: 100px;
+}
+.container .partners .partners-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 24px;
+  width: 50%;
+}
+.container .partners .partners-images .images {
+  display: flex;
+  flex-direction: column;
+}
+.container .partners .partners-images .images img {
+  width: 150px;
+  height: 150px;
+}
+.container .testimonials {
+  padding: 100px;
+  color: white;
+  display: flex;
+  gap: 24px;
+}
+.container .testimonials .testmonial-card {
+  background-color: #004AAD;
+  width: 30%;
+  height: 40vh;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container .testimonials .testmonial-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: -50px;
+}
+.container .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 49px;
+  text-align: center;
+}
+.container .contact .title {
+  font-size: 24px;
+  width: 70%;
+}
+.container .contact .info-form {
+  display: flex;
+  gap: 24px;
+}
+.container .contact .info-form .info {
+  border-radius: 10px;
+  background: #004AAD;
+  width: 900px;
+  height: 454px;
+  padding: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.container .contact .info-form .info a {
+  display: flex;
+  gap: 24px;
+}
+.container .contact .info-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+.container .contact .info-form form input,
+.container .contact .info-form form textarea {
+  padding: 20px;
+  outline: none;
+  border: 1px solid #004AAD;
+  border-radius: 6px;
+  width: 100%;
+}
+.container .contact .info-form form .half-input {
+  width: 100%;
+  display: flex;
+  gap: 6px;
+}
+.container .contact .info-form form input[type=submit] {
+  background-color: #004AAD;
+  color: white;
+}
+.container .contact #map {
+  width: 100%;
+  height: 50vh;
+}
+.container .contact #map a {
+  color: #d2dae4;
+}
+.container footer {
+  background-color: #004AAD;
+  margin-top: 50px;
+  color: white;
+  padding: 40px;
+  display: flex;
+  gap: 24px;
+}
+.container footer .about-company {
+  width: 30%;
+}
+.container footer .otherlinks {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.container footer .otherlinks p {
+  font-size: 35px;
+}
+.container footer .otherlinks ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.container footer .otherlinks .quicklinks,
+.container footer .otherlinks .events,
+.container footer .otherlinks .contactinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.container .copy-rights {
+  display: flex;
+  justify-content: space-between;
+  background-color: #004AAD;
+  padding: 40px;
+  color: white;
+}/*# sourceMappingURL=index.css.map */
